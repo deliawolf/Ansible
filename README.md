@@ -188,3 +188,6 @@ PLAY RECAP *********************************************************************
 router1                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 router2                    : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
 ```
+
+
+Reference : https://docs.ansible.com/ansible/latest/collections/cisco/index.html
