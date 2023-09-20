@@ -1,1 +1,19 @@
+---
+- name: Show Data
+  hosts: routers
+  gather_facts: no
+
+  tasks:
+  - name: GATHERING FACTS
+    ios_facts:
+      gather_subset: hardware
+
+  - name: run show version
+    ios_command:
+      commands: show version
+    register: show_version
+  
+  - name: display show run version
+    debug:
+      var: show_version
 
