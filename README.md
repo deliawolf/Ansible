@@ -22,7 +22,7 @@ sudo ansible-config init --disabled -f ini > ansible.cfg
 after this the ansible.cfg will be created, you can create it in whatever folder you want, as long as you run the command there. the path also will be saved automaticly in ansible path.
 you can check it again and see with ansible --version.
 
-4.now we going to make the inventory and playbook. the inventory is a plcae we used to store our devices and the playbook is a plcae we use to store our action/command, etc.
+4. now we going to make the inventory and playbook. the inventory is a plcae we used to store our devices and the playbook is a plcae we use to store our action/command, etc.
    you can use whatever text editor you desire.
 5. below is the inventory "hosts_ios,yaml".
 
